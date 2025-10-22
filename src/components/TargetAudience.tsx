@@ -56,37 +56,6 @@ const TargetAudience = () => {
           ))}
         </div>
 
-        <div className="bg-primary/5 border-2 border-primary/20 rounded-2xl p-8 max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold text-foreground mb-6 text-center">
-            Ideal Customer Profile
-          </h3>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <div className="flex items-baseline gap-2 mb-2">
-                <span className="text-3xl font-bold text-accent">$3M+</span>
-                <span className="text-muted-foreground">Annual facilities OpEx/CapEx</span>
-              </div>
-            </div>
-            <div>
-              <div className="flex items-baseline gap-2 mb-2">
-                <span className="text-3xl font-bold text-accent">500k+</span>
-                <span className="text-muted-foreground">Square feet under management</span>
-              </div>
-            </div>
-            <div>
-              <div className="flex items-baseline gap-2 mb-2">
-                <span className="text-3xl font-bold text-accent">10+</span>
-                <span className="text-muted-foreground">On-staff technicians</span>
-              </div>
-            </div>
-            <div>
-              <div className="flex items-baseline gap-2 mb-2">
-                <span className="text-3xl font-bold text-accent">✓</span>
-                <span className="text-muted-foreground">Board oversight of facilities</span>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

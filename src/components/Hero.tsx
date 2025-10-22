@@ -43,21 +43,6 @@ const Hero = () => {
               Learn More
             </Button>
           </div>
-          
-          <div className="mt-12 grid grid-cols-3 gap-8 max-w-2xl">
-            <div>
-              <div className="text-3xl font-bold text-stat-highlight mb-2">30 Days</div>
-              <div className="text-primary-foreground/80">Full Implementation</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-stat-highlight mb-2">$3M+</div>
-              <div className="text-primary-foreground/80">Annual Facilities Spend</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-stat-highlight mb-2">500k+</div>
-              <div className="text-primary-foreground/80">Sq Ft Under Management</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
