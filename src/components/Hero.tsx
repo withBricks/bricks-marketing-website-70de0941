@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-dashboard.jpg";
+import brickLogo from "@/assets/brick-logo.png";
 
 const Hero = () => {
   return (
@@ -16,6 +17,10 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl">
+          <div className="flex items-center gap-4 mb-8">
+            <img src={brickLogo} alt="Bricks Logo" className="w-16 h-16 md:w-20 md:h-20" />
+            <span className="text-4xl md:text-5xl font-bold text-primary-foreground">Bricks</span>
+          </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
             Facilities Intelligence for Mission-Driven Organizations
           </h1>

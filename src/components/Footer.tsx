@@ -1,4 +1,4 @@
-import { Building2 } from "lucide-react";
+import brickLogo from "@/assets/brick-logo.png";
 
 const Footer = () => {
   return (
@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <Building2 className="w-8 h-8" />
+            <div className="flex items-center gap-3 mb-4">
+              <img src={brickLogo} alt="Bricks Logo" className="w-10 h-10" />
               <span className="text-2xl font-bold">Bricks</span>
             </div>
             <p className="text-primary-foreground/80 mb-4">
