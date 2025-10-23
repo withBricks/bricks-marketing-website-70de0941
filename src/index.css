@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 0 45% 45%;
+    --accent: 0 55% 38%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,15 +34,15 @@ All colors MUST be HSL.
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 0 45% 45%;
+    --ring: 0 55% 38%;
 
     --radius: 0.75rem;
     
     /* Custom tokens for Bricks - Black and Maroon */
     --hero-gradient-start: 0 0% 8%;
-    --hero-gradient-end: 0 45% 25%;
+    --hero-gradient-end: 0 55% 22%;
     --section-bg: 0 0% 98%;
-    --stat-highlight: 0 45% 45%;
+    --stat-highlight: 0 55% 38%;
 
     --sidebar-background: 0 0% 98%;
 
@@ -80,7 +80,7 @@ All colors MUST be HSL.
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 0 45% 45%;
+    --accent: 0 60% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -88,12 +88,12 @@ All colors MUST be HSL.
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 0 45% 45%;
+    --ring: 0 60% 45%;
     
     --hero-gradient-start: 0 0% 5%;
-    --hero-gradient-end: 0 45% 20%;
+    --hero-gradient-end: 0 60% 18%;
     --section-bg: 0 0% 10%;
-    --stat-highlight: 0 45% 55%;
+    --stat-highlight: 0 60% 50%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
